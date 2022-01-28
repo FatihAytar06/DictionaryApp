@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/gray"
+    android:layout_margin="8dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textView_definition"
+            android:text="Definition"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/textView_example"
+            android:text="Example"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:text="Synonmys"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/textView_synonmys"
+            android:text=""
+            android:textStyle="italic"
+            android:scrollHorizontally="true"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:text="Antonmys"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/textView_antonmys"
+            android:text=""
+            android:textStyle="italic"
+            android:scrollHorizontally="true"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
